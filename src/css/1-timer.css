@@ -1,3 +1,10 @@
+.timer-background {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+}
 #datetime-picker {
   padding: 10px;
   font-size: 16px;
@@ -32,12 +39,8 @@ button[data-start]:hover:not(:disabled) {
   display: flex;
   justify-content: center;
   gap: 20px;
-  background: #ffffff;
   padding: 20px 40px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
-
 .field {
   display: flex;
   flex-direction: column;
@@ -53,6 +56,5 @@ button[data-start]:hover:not(:disabled) {
 .label {
   margin-top: 8px;
   font-size: 16px;
-  color: #777;
   text-transform: uppercase;
 }
